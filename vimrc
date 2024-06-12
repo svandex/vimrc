@@ -11,9 +11,9 @@ set ff=unix
 syntax on
 filetype off
 
-call plug#begin('$VIM/vimfiles/plugin/')
+call plug#begin('$VIM/vimfiles/plug/')
 Plug 'git@github.com:gabrielelana/vim-markdown'
-"Plug 'git@github.com:vim-airline/vim-airline'
+Plug 'git@github.com:vim-airline/vim-airline'
 Plug 'git@github.com:bfrg/vim-cpp-modern'
 Plug 'git@github.com:preservim/tagbar'
 Plug 'git@github.com:tpope/vim-surround'
