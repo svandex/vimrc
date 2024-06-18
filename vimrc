@@ -11,7 +11,7 @@ set ff=unix
 syntax on
 filetype off
 
-call plug#begin('$VIMRC/vimfiles/plug/')
+call plug#begin('$VIMRC/plug/')
 Plug 'git@github.com:tpope/vim-markdown'
 Plug 'git@github.com:vim-airline/vim-airline'
 Plug 'git@github.com:bfrg/vim-cpp-modern'
@@ -25,7 +25,7 @@ filetype plugin indent on
 "需要配置内部变量
 "source $VIMRC/vimfiles/config/gdb.vim
 
-source $VIMRC/vimfiles/config/markdown.vim
-source $VIMRC/vimfiles/config/ale.vim
-source $VIMRC/vimfiles/config/ctags.vim
+source $VIMRC/config/markdown.vim
+source $VIMRC/config/ale.vim
+source $VIMRC/config/ctags.vim
 
