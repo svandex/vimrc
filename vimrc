@@ -12,7 +12,7 @@ syntax on
 filetype off
 
 call plug#begin('$VIMRC/plug/')
-Plug 'git@github.com:tpope/vim-markdown'
+"Plug 'git@github.com:tpope/vim-markdown'
 Plug 'git@github.com:vim-airline/vim-airline'
 Plug 'git@github.com:bfrg/vim-cpp-modern'
 Plug 'git@github.com:preservim/tagbar'

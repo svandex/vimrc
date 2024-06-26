@@ -1,3 +1,4 @@
 plug/*
 tag/*
 autoload/*
+.netrwhist
